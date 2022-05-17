@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>LAV-Traslados</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="icon" href="../img/lav.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="inner-width">
+      <a href="#" class="logo"><img src="../img/lav.png" alt=""></a>
+      <i class="menu-toggle-btn fas fa-bars"></i>
+      <nav class="navigation-menu">
+        <a href="../index.html"><i class="fas fa-home home"></i> Inicio</a>
+        <a href="quienessomos.html"><i class="fas fa-align-left about"></i> ¿Quienes somos?</a>
+        <a href="quehacemos.html"><i class="fab fa-buffer works"></i> ¿Que hacemos?</a>
+        <a href="traslados.html"><i class="fas fa-users team"></i> Traslados</a>
+        <a href="contacto.html"><i class="fas fa-headset contact"></i> Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hacemos">
+    <h1>Traslados <b>Simples</b></h1>
+    <p>Traslado simple, a sanatorio o domicilio, se permite 1 acompañante con el paciente.</p>
+    <h1>Traslados <t>Urgencias</t></h1>
+    <p>Traslado de urgencia con medico, unicamente sanatorios con llamada previa al sanatorio destino para que reciban
+      el paciente. Se permite 1 acompañante maximo.</p>
+    <h1>Traslados con <b>Medicos</b></h1>
+    <p>Traslado con Medico a domicilio o sanatorio, se permite 1 acompañante maximo.</p>
+    <h1>Traslados <b>Nacionales</b></h1>
+    <p>Traslados a distintos puntos del pais,tener los permisos del paciente y acompñante para cruzar la provincia
+      destino. Se permite 1 acompñante maximo.</p>
+    <h1>Traslados <b>Internacionales</b></h1>
+    <p>Traslado internacional, se requerira papales y permisos para cruzar al extrajero, en caso de ir a buscar al
+      paciente al extrajero se le pedira que llamen con anticipacion al sanatorio donde se va a dirigir. 1 acompañante
+      maximo.</p>
+    <h1>Consultas <b>Medicas</b></h1>
+    <p>Consulta medica para distintos tratamientos.</p>
+    <h1>Traslados <t>COVID-19</t></h1>
+    <p>En caso de que el paciente presente sintomas de COVID-19, se le pedira que lleve barbijo,papeles y que llame con
+      anticipo al sanatorio aclarando su situacion, no se permiten acompañantes por protocolo COVID-19. </p>
+  </div>
+
+  <script type="text/javascript">
+    $(".menu-toggle-btn").click(function () {
+      $(this).toggleClass("fa-times");
+      $(".navigation-menu").toggleClass("active");
+    });
+  </script>
+
+  <footer>
+    <div class="footer-content">
+      <h3>Redes Sociales</h3>
+      <p>Ingresa a alguna de nuestras redes sociales para enterarte de mas.</p>
+      <ul class="socials">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+      <div class="footer-bottom">
+        <p>copyright &copy;2022 <a href="#">Servicios de Traslados L.A.V.</a></p>
+        <div class="footer-menu">
+          <ul class="f-menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="">¿Quienes somos?</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href="">Traslados</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

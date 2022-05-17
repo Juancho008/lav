@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>LAV-¿Que hacemos?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="icon" href="../img/lav.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="inner-width">
+      <a href="#" class="logo"><img src="../img/lav.png" alt=""></a>
+      <i class="menu-toggle-btn fas fa-bars"></i>
+      <nav class="navigation-menu">
+        <a href="../index.html"><i class="fas fa-home home"></i> Inicio</a>
+        <a href="quienessomos.html"><i class="fas fa-align-left about"></i> ¿Quienes somos?</a>
+        <a href="quehacemos.html"><i class="fab fa-buffer works"></i> ¿Que hacemos?</a>
+        <a href="traslados.html"><i class="fas fa-users team"></i> Traslados</a>
+        <a href="contacto.html"><i class="fas fa-headset contact"></i> Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hacemos">
+    <h1>¿Que hacemos en <b>LAV</b>?</h1>
+    <p>Lo que hacemos en <b>LAV</b> es traladar al paciente con la mejor calidad.<br>En <b>LAV</b> nos enfocamos en el
+      confort, trato y salud del paciente. Nuestro principal objetivo es llevar al paciente lo mas comodo posible y
+      brindarle la seguridad que el familiar necesita.<br>Nuestra ambulancia viene equipada con los materiales
+      necesarios para cualquier traslado/emergencia.<br></p>
+    <h1>Personal de <b>LAV</b></h1>
+    <p>Nuestro personal de <b>LAV</b>, cuenta con constante capacitacion al trato,salud y cuidado del paciente.<br>
+      Contamos con Medicos, Medicos Pediatricos, Medicos de Urgencia, Enfermeros, Licenciados en Enfermeria, Camilleros
+      y acompañantes terapeuticos.</p>
+    <img src="../img/empleados.jpg">
+    <h1>¿Por que <b>LAV</b>?</h1>
+    <p>Nos avalan años al servicio de los pacientes,tratos y experiencia en el campo medico.<br> ¿Que esperas para
+      probar nuestro servicio?</p>
+  </div>
+
+
+  <script type="text/javascript">
+    $(".menu-toggle-btn").click(function () {
+      $(this).toggleClass("fa-times");
+      $(".navigation-menu").toggleClass("active");
+    });
+  </script>
+
+  <footer>
+    <div class="footer-content">
+      <h3>Redes Sociales</h3>
+      <p>Ingresa a alguna de nuestras redes sociales para enterarte de mas.</p>
+      <ul class="socials">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+      <div class="footer-bottom">
+        <p>copyright &copy;2022 <a href="#">Servicios de Traslados L.A.V.</a></p>
+        <div class="footer-menu">
+          <ul class="f-menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="">¿Quienes somos?</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href="">Traslados</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

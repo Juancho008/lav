@@ -1,0 +1,273 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+}
+
+.blue-bg {
+  position: absolute;
+  background: url(../img/2.png);
+  background-size: cover;
+  background-color: #58aff6;
+  top: 0;
+  height: 400px;
+  width: 100vw;
+  z-index: -1;
+  overflow-x: hidden;
+
+}
+
+.white-bg {
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  min-height: 350px;
+  margin: 210px 0px;
+  width: 100vw;
+  height: 300vh;
+  transform: skewY(5deg);
+  z-index: -1;
+
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  margin: 250px 10vw;
+  max-width: 60vw;
+  background-color: transparent;
+
+}
+
+.shadow {
+  box-shadow: -2px -5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.menu li a {
+  text-decoration: none;
+  background-color: #13B999;
+  padding: 20px 35px;
+  border-radius: 10px 40px;
+  color: #E5F6E2;
+  font-size: 25px;
+  transition: linear 0.3s;
+}
+.quienes{
+  display: inline-block;
+}
+.quehacemo{
+  display: inline-block;
+}
+.index{
+  display: inline-block;
+}
+.menu li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.menu li a:hover {
+  color: #13B999;
+  background-color: white;
+  border-style: outset;
+}
+
+.contenido {
+  margin-top: 7%;
+  font-size: 2%;
+
+}
+
+.contenido p {
+  text-align: center;
+  font-size: 6vh;
+  color: #706d6e;
+}
+
+.letra {
+  margin-top: 6vh;
+  background-color: #f2f3f5;
+  color: #706d6e;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.letra p{
+  font-size: 3vh;
+}
+.carousel-item img {
+  border-radius: 15px 15px;
+}
+
+.imagen h2 {
+  color: #706d6e;
+}
+
+.imagen img {
+  border-radius: 15px 15px;
+}
+aside {
+  width: 27%;
+  padding-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: #13B999;
+  border-radius: 20px;
+  margin-top: 30%;
+  
+}
+
+aside h1 {
+  color: white;
+  font-size: 30px;
+}
+
+aside p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+aside img {
+  border-radius: 55px;
+}
+.anuncio{
+  background-color: whitesmoke;
+  padding: 100px 700px;
+  margin-top: 30px;
+}
+.quehacemos-txt h1{
+  font-size:60px ;
+  text-align: center;
+  margin-top: 150px;
+  color: #706d6e;
+}
+.quehacemos-txt p{
+  font-size: 30px;
+  color: #706d6e;
+}
+.quehacemos-txt b{
+  color:#13B999 ;
+}
+.quehacemos-txt img{
+  border-radius: 15px 15px;
+}
+.contenido b{
+  color:#13B999 ;
+}
+.quehacemos-txt ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 10%;
+ 
+}
+.quehacemos-txt ul li a{
+text-decoration: none;
+color: #13B999;
+transition: linear 0.2s;
+}
+.quehacemos-txt ul li a:hover{
+  text-decoration: none;
+  color: #013f32;
+  }
+form input{
+  margin-top: 40px;
+  display: inline-block;
+  outline: none;
+  border-color: #13B999;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 30px;
+  color: #013f32;
+  }
+  form textarea{
+    margin-top: 40px;
+    background-color:#f2f3f5;
+    font-size: 30px;
+    transition: linear 0.2s;
+    width: 75%;
+    height: 250px;
+  }
+  form textarea:hover{
+    outline-color: #13B999;
+  }
+form li{
+  list-style: none;
+}
+button{
+  background-color: #13B999;
+  outline: none;
+  width: 250px;
+  height: 100;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #f2f3f5;
+  transition: linear 0.2s;
+  border-color: #13B999;
+}
+button:hover{
+  color: #13B999;
+  background-color: #f2f3f5;
+
+}
+@media screen and (max-width:750px)and ( max-height:750px){
+  aside {
+    display: none;
+  }
+  .carousel-item img {
+    border-radius: 15px 15px;
+ 
+    height: 450px;
+  }
+  .contenido {
+    margin-top: 15%;
+    font-size: 50px;
+  
+  }
+  
+  .contenido p {
+    text-align: center;
+    font-size: 3.5vh;
+    color: #706d6e;
+  }
+  .imagen img{
+    max-width: 500px;
+    max-height: 500px;
+  }
+  .anuncio{
+    display: none;
+  }
+  .menu{
+    font-size: 20px;  
+  }
+  .quehacemo{
+    margin-bottom: 20px;
+  }
+  .quienes{
+    margin-bottom: 20px;
+  }
+  .index{
+    margin-bottom: 20px;
+  }
+  .quehacemos-txt h1{
+    align-items: center;
+    font-size: 35px;
+  }
+  .quehacemos-txt img{
+    width: 550px;
+    height: 550px;
+  }
+  .quehacemos-txt li a svg{
+    max-width: 50px;
+    max-height: 50px;
+ 
+  }
+
+}
